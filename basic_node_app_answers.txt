@@ -1,0 +1,10 @@
+1. It is a function that can be exported from one file, imported into another file,
+ and be called like if it was in its original file.
+
+2. module.exports is a way to export modules independently or in object form, but it is also
+ a variable that can be over written. Exports functions the same as module.exports,
+ however, asigning exports to a value will not effect module.exports.
+
+3. using exports over moduleexports is recommended because you can overwrite exports without
+causing problems with other exports.
+

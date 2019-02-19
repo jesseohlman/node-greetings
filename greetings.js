@@ -1,10 +1,18 @@
-module.exports = {
 
-    greetingEnglish: function() {
+
+    exports.greetingEnglish = function() {
         console.log("Hello");
-    },
+    }
 
-    greetingJapanese: function() {
+    exports.greetingJapanese = function() {
         console.log("Konichiwa");
     }
-};
+
+    exports.greetingSpanish = function() {
+        console.log("Hola");
+    }
+
+    exports.greetingIcelandic = function() {
+        console.log("Hallo");
+    }
+
